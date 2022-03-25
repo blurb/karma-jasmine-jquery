@@ -1,6 +1,18 @@
 karma-jasmine-jquery
 ====================
 
+## Blurb Peoples Look Here
+
+Why did we fork this repository?
+
+To fix a dependency issue with bower-installer, specifically we needed to remove `git+` from the front of the request as that is now (as of 3/15/2022) an unsupported git protocol for github
+
+Can we remove this repository?
+
+Not until all unit tests in [Buildkit](https://github.com/blurb/blurb-buildkit) have been replaced or updated to where they are no longer dependent on karma-jasmine-jquery
+
+## -----------------------
+
 Jasmine-jquery plugin for Jasmine in Karma.
 
 It karma adapter for
